@@ -1,0 +1,35 @@
+.headerSection{
+    background-color: #f3f4f6;
+    padding:15px;
+    color:#1f2937;
+    display:flex;
+    justify-content:center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+.header{
+    width:85%;
+    display:flex;
+    justify-content: space-between;
+            align-items:center;
+
+}
+.rightHeader{
+    display:flex;
+    gap:15px;
+}
+.right .rightHeader li{
+    list-style: none;
+    font-size:large;
+    padding:15px;
+    background-color: gray;
+    color:white;
+cursor:pointer;
+}
+.right .rightHeader li:hover{
+    background-color:#4f46e5;
+}
+
+.right{
+    
+}

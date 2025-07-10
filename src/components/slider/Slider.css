@@ -1,0 +1,43 @@
+.sliderSection {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.slider {
+  width: 85%;
+  background-color: pink;
+  height: 100%;
+  position: relative; /* Needed to position buttons inside */
+}
+
+.sliderImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.slider .navigate {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 10px;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.slider .leftSlide {
+  left: 0;
+}
+
+.slider .rightSlider {
+  right: 0;
+}
+
