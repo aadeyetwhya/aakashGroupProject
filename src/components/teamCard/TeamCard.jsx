@@ -2,7 +2,7 @@ import React from 'react'
 
 function TeamCard({eachTeamInfo}) {
   return (
-    <div className="teamCard">
+    <div className="teamCard" >
                             {/* <div className="teamImage">
                                { eachTeamInfo.name}
                             </div> */}

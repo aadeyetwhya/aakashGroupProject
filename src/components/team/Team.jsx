@@ -28,7 +28,7 @@ const teamMembers = [
 
 function Team() {
     return (
-        <div className="teamSection">
+        <div className="teamSection" id="team">
             <h1 className="teamTitle">
                 Our Teams
             </h1>

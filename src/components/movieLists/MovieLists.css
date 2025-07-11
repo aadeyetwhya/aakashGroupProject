@@ -1,0 +1,50 @@
+.moviePage {
+  padding: 30px;
+  background-color: #f0f2f5;
+  /* min-height: 100vh; */
+  font-family: 'Segoe UI', sans-serif;
+  width:100%;
+  justify-content: center;
+  display: flex;
+  margin-top:75px;
+
+}
+.movies{
+    width:85%;
+  
+}
+.movieList{
+   display:flex;
+    flex-direction: row;
+    gap:90px; 
+    justify-content: center;
+    flex-wrap:wrap;
+}
+ 
+.movies h1 {
+  color: #222;
+  margin-bottom: 30px;
+}
+
+
+.movieCard {
+  width:260px;
+}
+
+
+
+.movieCard img {
+ background-size: cover;
+ height:340px;
+}
+
+.movieDescriptions  h3{
+    font-size: 1.4rem;
+}
+
+
+
+.movieDescriptions p {
+    font-size: 1.1rem;
+    margin-bottom:0.4rem
+}
