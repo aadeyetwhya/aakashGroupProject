@@ -1,6 +1,8 @@
 import React from 'react'
 import './Header.css';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+
 
 function Header() {
   return (
@@ -13,10 +15,10 @@ function Header() {
         <div className="right">
           <ul className="rightHeader">
             <li><a href="/">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#team">Our Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-                        <li><Link to="/weather">Movie Api</Link></li>
+            <li><HashLink to="/#about">About Us</HashLink></li>
+            <li><HashLink to="/#team">Our Team</HashLink></li>
+            <li><HashLink to="/#contact">Contact</HashLink></li>
+            <li><Link to="/movie">Movie Api</Link></li>
 
           </ul>
         </div>

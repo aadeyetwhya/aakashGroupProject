@@ -1,10 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import './MovieLists.css'
 import MovieCard from '../movieCard/MovieCard'
+import { useLocation } from "react-router-dom";
+
 
 function MovieLists() {
  const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" }); // scrolls to top smoothly
+  }, [pathname]);
 
   const fetchMovies = async () => {
     try {
