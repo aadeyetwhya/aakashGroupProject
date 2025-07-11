@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} /> {/* Correct route for Home */}
-          <Route path="/weather" element={<MovieApi />} /> {/* Correct route for About */}
+          <Route path="/movie" element={<MovieApi />} /> {/* Correct route for About */}
         </Routes>
       </BrowserRouter>
     </>

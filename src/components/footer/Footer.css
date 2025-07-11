@@ -12,7 +12,6 @@
 
 .footer {
     width: 80%;
-    /* background-color: pink; */
    
 }
 .upperFooter{
@@ -104,3 +103,27 @@ a{
     transition: color 0.3s;
   }
 
+  @media (max-width: 1024px) {
+  .upperFooter {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .middleFooter,
+  .rightFooter,
+  .leftFooter {
+    width: 100%;
+  }
+
+  .middleFooter .quickLinks,
+  .rightFooter .socialMediaLinks {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    width: 90%;
+  }
+}

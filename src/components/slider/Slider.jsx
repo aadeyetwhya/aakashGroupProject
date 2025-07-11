@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Slider.css'
 
 function Slider() {
-    const imagePaths = ['/images/1.jpg', '/images/2.jpg', '/images/3.jpg','/images/4.jpg'];
+    const imagePaths = ['/images/5.jpg', '/images/2.jpg', '/images/3.jpg','/images/4.jpg','/images/1.jpg'];
     const [currentIndex, setCorrentIndex] = useState(0);
     const handleNav = (value) => {
         console.log("value",value)

@@ -87,3 +87,18 @@
 .submit-btn button:hover {
   background-color: #8a62e9; 
 }
+
+/* Tablets and small laptops (≤1024px) */
+@media (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .form-section,
+  .contact-text {
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+}

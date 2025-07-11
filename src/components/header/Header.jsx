@@ -16,7 +16,7 @@ function Header() {
             <li><a href="#about">About Us</a></li>
             <li><a href="#team">Our Team</a></li>
             <li><a href="#contact">Contact</a></li>
-                        <li><Link to="/weather">Weather</Link></li>
+                        <li><Link to="/weather">Movie Api</Link></li>
 
           </ul>
         </div>

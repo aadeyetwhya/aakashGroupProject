@@ -41,7 +41,7 @@ function Footer() {
           &copy; {new Date().getFullYear()} YourBrand. All rights reserved.
         </p>
         <p style={{ margin: '5px 0 0 0', color: '#666', fontSize: '0.8rem' }}>
-          Designed by <a href="https://yourportfolio.com"  target="_blank" rel="noopener noreferrer" className='designedByLink'>Your Name</a>
+          Designed by Aditya Kafle
         </p>
       </div>
             </div>

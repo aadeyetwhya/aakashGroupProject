@@ -3,9 +3,9 @@ import React from 'react'
 function TeamCard({eachTeamInfo}) {
   return (
     <div className="teamCard" >
-                            {/* <div className="teamImage">
-                               { eachTeamInfo.name}
-                            </div> */}
+                            <div className="teamImage">
+                               <img src={ eachTeamInfo.image} alt="" />
+                            </div>
                             <div className="teamName">
                                { eachTeamInfo?.name}
                             </div>

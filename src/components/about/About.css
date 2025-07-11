@@ -29,3 +29,19 @@
       color: #374151; /* gray-700 */
 
 }
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .aboutUsContent {
+    width: 85%;
+  }
+
+  .aboutUsContent h1 {
+    font-size: 1.8rem;
+  }
+
+  .aboutDescription p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+}

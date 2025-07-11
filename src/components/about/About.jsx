@@ -10,7 +10,7 @@ function About() {
                 </h1>
                 <div className="aboutDescription">
                     <p>
-                       Welcome to our React-based Single Page Application (SPA) project — a clean and modern landing page built to showcase essential front-end development skills using React, Tailwind CSS, and public API integration.
+                       Welcome to our React-based Single Page Application (SPA) project — a clean and modern landing page built to showcase essential front-end development skills using React, Vanilla CSS, and public API integration.
                     </p>
                     <p>
                         This project was developed as part of a front-end internship assignment, with the goal of demonstrating a solid understanding of modern web technologies. It highlights core concepts such as component-based architecture, single-page navigation, API communication, form handling, and dark mode implementation.
