@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ContactUs.css';
+import './Contactus.css';
 
 function ContactUs() {
   const [contactData, setContactData] = useState({
@@ -8,7 +8,7 @@ function ContactUs() {
     "email": "",
     "message": ""
   })
-    const [responseData, setResponseData] = useState(null);
+  const [responseData, setResponseData] = useState(null);
 
 
   const handleChange = (e) => {
@@ -18,7 +18,7 @@ function ContactUs() {
     });
   };
   const handleSubmit = async (e) => {
- e.preventDefault();
+    e.preventDefault();
 
     try {
       const response = await fetch("https://jsonplaceholder.typicode.com/posts", {
@@ -30,7 +30,7 @@ function ContactUs() {
       });
 
       const data = await response.json();
-      console.log("post Response:",data);
+      console.log("post Response:", data);
       setResponseData(data);
       alert("Form submitted successfully (mock)!");
     } catch (error) {
@@ -51,7 +51,7 @@ function ContactUs() {
         </div>
       </div>
 
-<form className="form-section" onSubmit={handleSubmit}>
+      <form className="form-section" onSubmit={handleSubmit}>
         <div className="name-fields">
           <div className="input-group">
             <label htmlFor="fname">First Name:</label>
